@@ -14,6 +14,7 @@ Counts:
   - character count
   - token count
   - lexical richness
+  - unique words count
 
 Frequencies:
 - most frequent words
