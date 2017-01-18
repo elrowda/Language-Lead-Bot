@@ -1,4 +1,4 @@
-# Language-Lead-Bot
+l# Language-Lead-Bot
 Python code for automating language lead tasks (localization/translation)
 
 The Language Lead Bot's goal is to replicate some of the tasks that language leads must do for localization projects, in an automated way. 
@@ -13,7 +13,6 @@ Counts:
   - paragraph count
   - character count
   - token count
-  - lexical richness
   - unique words count
   - average sentence length
   - longest sentence
@@ -33,8 +32,9 @@ Spelling:
 - list of ignore terms
 - stopwords
 
-Collocations:
+Lexical information:
 - frequent collocations
+- lexical richness
 
 
 
