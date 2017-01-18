@@ -3,7 +3,7 @@ Python code for automating language lead tasks (localization/translation/corpus 
 
 The Language Lead Bot's goal is to replicate some of the tasks that language leads must do for localization projects, in an automated way. 
 
-This first version is simply a MVP, a proof of concept. It works with an English source, for now, UTF8.
+This first version is simply a MVP, a proof of concept. It works with an English source, for now, UTF8. Powered by NLTK and TextBlob mainly.
 
 Features included in version 1.0 are:
 
