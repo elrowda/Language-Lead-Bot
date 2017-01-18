@@ -19,6 +19,8 @@ Counts:
 Frequencies:
 - most frequent words
 - less frequent words
+- show frequent nouns (+ count)
+- show frquent adj. (+count)
 
 Glossaries and Dictionaries:
 - glossary matching
