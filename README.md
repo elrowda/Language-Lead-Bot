@@ -15,6 +15,8 @@ Counts:
   - token count
   - lexical richness
   - unique words count
+  - average sentence length
+  - longest sentence
 
 Frequencies:
 - most frequent words
