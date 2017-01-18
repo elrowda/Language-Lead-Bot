@@ -8,13 +8,13 @@ from nltk import FreqDist
 from textblob import Word
 import csv
 
-###PATH to your file
-nltkfile = nltk.corpus.PlaintextCorpusReader(r'C:\Users\jrowda\Documents', 'split7.txt')
+###PATH to your file - make sure you update it
+nltkfile = nltk.corpus.PlaintextCorpusReader(r'C:\Users\You\Documents', 'myfile.txt')
 corpus  = nltk.Text(nltkfile.words())
 text = nltk.Text(corpus)
 
 #opening file for TextBlob
-file = open(r'C:\Users\jrowda\Documents\split7.txt')
+file = open(r'C:\Users\You\Documents\myfile.txt')
 tblobread = file.read()
 corpusblob = TextBlob(tblobread)
 
@@ -28,7 +28,7 @@ fullstop = stopwords + mystopwords
 spellchars = "[('.', )qwertyuiopasdfghjklzxcvbnm!@#$%^&*()--+={}\|;:]"
 
 ###ignore list location (used for spellchecker)
-ignorelist = open(r'C:\Users\jrowda\Documents\ignorelist.txt').read()
+ignorelist = open(r'C:\Users\You\Documents\ignorelist.txt').read()
 
 #allWords = nltk.word_tokenize(corpus)
 allWordDist = nltk.FreqDist(w.lower() for w in text)
