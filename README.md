@@ -43,7 +43,7 @@ HOW TO USE:
 - Running the code will generate a report with all available features.
 - Some features are simple can be run directly from the relevant print() line
 
-Individual funtions:
+Individual functions:
 - fdistlen(): report number of words by length in your corpus
 - findhapaxes(): prints the 50 less frequent words in your corpus
 - hapaxdef(): prints hapaxes (words that appear only 1 time in your corpus) followed by their definition
